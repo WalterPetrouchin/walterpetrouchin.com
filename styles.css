@@ -29,7 +29,7 @@ body {
   min-height: 100vh;
   place-items: center;
   overflow: hidden;
-  padding: clamp(32px, 6vw, 72px) 24px;
+  padding: clamp(28px, 5vw, 60px) 24px;
   isolation: isolate;
 }
 
@@ -65,9 +65,9 @@ body {
 }
 
 .portrait-wrap {
-  width: clamp(184px, 26vw, 434px);
+  width: clamp(156px, 21vw, 340px);
   aspect-ratio: 1;
-  margin: 0 auto clamp(22px, 4vw, 34px);
+  margin: 0 auto clamp(18px, 3.2vw, 28px);
   overflow: hidden;
   border: 3px solid var(--gold);
   border-radius: 50%;
@@ -87,7 +87,7 @@ body {
 h1 {
   margin: 0;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(52px, 8vw, 108px);
+  font-size: clamp(42px, 6.4vw, 86px);
   font-weight: 500;
   line-height: 0.92;
   letter-spacing: 0;
@@ -96,11 +96,11 @@ h1 {
 
 .divider {
   display: grid;
-  grid-template-columns: minmax(70px, 150px) 18px minmax(70px, 150px);
-  gap: 18px;
+  grid-template-columns: minmax(58px, 126px) 16px minmax(58px, 126px);
+  gap: 16px;
   align-items: center;
   justify-content: center;
-  margin: clamp(16px, 2.4vw, 26px) 0 clamp(22px, 3vw, 32px);
+  margin: clamp(14px, 2vw, 22px) 0 clamp(18px, 2.4vw, 26px);
 }
 
 .divider span {
@@ -114,8 +114,8 @@ h1 {
 
 .divider b {
   display: block;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   border: 2px solid var(--gold);
   transform: rotate(45deg);
 }
@@ -128,14 +128,14 @@ h1 {
 }
 
 .status {
-  font-size: clamp(28px, 4.3vw, 50px);
+  font-size: clamp(23px, 3.4vw, 40px);
   line-height: 1.18;
 }
 
 .thanks {
-  margin-top: 24px;
+  margin-top: 18px;
   color: var(--muted);
-  font-size: clamp(18px, 2vw, 28px);
+  font-size: clamp(16px, 1.7vw, 24px);
 }
 
 @media (max-width: 560px) {
